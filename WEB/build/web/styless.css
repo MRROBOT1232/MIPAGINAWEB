@@ -1,0 +1,151 @@
+hu {
+    text-align: center; 
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px #ff0000, 4px 4px 0px #0000ff;
+    padding-right: 800px; 
+}
+hc {
+    text-align: center; 
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 0px #ff0000, 4px 4px 0px #0000ff;
+    padding-right: 20px;
+}
+li{
+    color: black;
+    font-weight: bold;
+}
+
+lu{
+    color: red;
+    background: yellow;
+    }
+pu {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: -1px; /* Ajusta el valor según tus necesidades */
+}
+
+
+.contenedor-44 {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: 0.85;
+}
+.contenedor-44.header {
+    height: calc(100vh - 55px);
+    border: 3px solid #FF0000;
+}
+/* CAMBIAR TAMOÑO DEL CALENDARIO SEPTIEMBRE */
+divs {
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+}
+/* ESTILO DEL CALENDARIO SEPTIEMBRE */
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0;
+}
+
+/* ESTILO DEL CALENDARIO SEPTIEMBRE DAY ESTILO A LUNES A DOMINGO */
+.day-name{
+    font-weight: bold;
+}
+.firstday{
+    grid-column-start: 6;
+}
+/* CAMBIAR TAMOÑO DEL CALENDARIO Octubre */
+divo {
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+}
+/* ESTILO DEL CALENDARIO OCTUBRE */
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0;
+}
+
+/* ESTILO DEL CALENDARIO OCTUBRE DAY ESTILO A LUNES A DOMINGO */
+.day-name{
+    font-weight: bold;
+}
+.firstdayo{
+    grid-column-start: 1;
+}
+/* CAMBIAR TAMOÑO DEL CALENDARIO NOVIEMBRE */
+divn {
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba(135, 141, 214, 0.3);
+}
+/* ESTILO DEL CALENDARIO NOVIEMBRE */
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0;
+}
+/* ESTILO DEL CALENDARIO NOVIEMBRE COMENZAR EN EL DIA VIERNES */
+.firstdayn{
+    grid-column-start: 4;
+}
+/* ESTILO DEL CALENDARIO NOVIEMBRE DAY ESTILO A LUNES A DOMINGO */
+.day-name{
+    font-weight: bold;
+}
+/* ESTILOS PARAHACER LA CONVERCION*/
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: monospace;
+    text-decoration: underline;
+}
+.formularioc{
+    margin: 20px;
+    font-size: 19px;
+    font-family: monospace;
+    text-align: center;
+}
+#uno{
+    text-align: center;
+    width: 80px;
+    height: 15px;
+}
+#dos{
+    text-align: center;
+    width: 80px;
+    height: 15px;    
+}
+/* LA CAJA DE TEXTO DE CONVERTIR*/
+#valor{
+    font-size: 30px; 
+}
+#cotizacion {
+    font-size: 20px;
+    border-radius: 12%;
+    background-color: #FFFF00; /* Cambia este color a uno de tu elección */
+    color: red;
+    font-weight: bold;
+}
